@@ -1,0 +1,35 @@
+.header-hacemos{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    .marcas{
+        padding-left: 5px;
+    }
+}
+#que_hacemos{
+    font-size: $medium;
+}
+
+#h2_quehacemos{
+    text-align: center;
+    margin-top: 1rem;
+}
+.card-text{
+    font-size: medium;    
+}
+.card-img{
+    width: max-content;
+    align-self: center;
+    border-radius: 65px;
+    animation-duration: 1s;
+    transition: 1s;
+}
+.card-img:hover{
+    transform: scale(2);
+}
+.card{
+    margin: 20px;
+    background-color: rgb(221, 220, 220);
+}
